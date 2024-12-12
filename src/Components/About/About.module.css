@@ -1,0 +1,137 @@
+.About_wrapper {
+    z-index: 1;
+}
+
+.AboutCard {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Par défaut pour les petits écrans */
+    background-color: rgb(239, 239, 239);
+    margin-top: -160px;
+    z-index: 9;
+    position: relative;
+}
+
+.AboutCard .About_Card_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    color: #1e1e1e;
+}
+
+.AboutCard .About_Card_content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.AboutCard .About_Card_content p {
+    font-size: 16px;
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.AboutCard .About_Card_image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.AboutCard .About_Card_image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Section About_Content */
+.About_Content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.About_Content .about_card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    padding: 15px;
+   
+   
+  
+}
+
+.About_Content .about_card::after,
+.About_Content .about_card::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--primary-color);
+    transition: height 0.6s ease;
+}
+
+.About_Content .about_card::after {
+    left: 26%;
+    height: 100%;
+    top: 0;
+}
+
+.About_Content .about_card h3 {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.About_Content .about_card span {
+    font-size: 16px;
+    display: block;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.About_Content .about_card p {
+    width: 100%;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .AboutCard {
+        flex-direction: column-reverse; /* Colonne inversée */
+    }
+
+    .AboutCard .About_Card_content,
+    .AboutCard .About_Card_image {
+        width: 100%; /* Pleine largeur */
+    }
+    
+
+    .About_Content {
+        grid-template-columns: 1fr 1fr; /* Deux colonnes */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .AboutCard {
+        flex-direction: row; /* Retour à une ligne */
+    }
+
+    .AboutCard .About_Card_content,
+    .AboutCard .About_Card_image {
+        width: 50%;
+    }
+
+    .About_Content {
+        grid-template-columns: repeat(3, 1fr); /* Trois colonnes */
+    }
+}

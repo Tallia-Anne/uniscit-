@@ -1,0 +1,42 @@
+.Gallery_wrapper h2 {
+
+color: #fff;
+font-size: 28px;
+text-align: center;
+line-height: 20px;
+}
+
+.Gallery_wrapper p {
+font-size: 28px;
+width: 60%;
+margin: 0 auto;
+color: #fff;
+text-align: center;
+}
+
+.gallery_cards {
+column-count: 3;
+margin-top: 60px;
+}
+
+.gallery_cards .gallery_card {
+width: 100%;
+
+}
+
+.gallery_cards .gallery_card img {
+width: 100%;
+margin-bottom: 1rem;
+}
+
+@media screen  and (max-width:1200px)  {
+    .gallery_cards {
+    column-count: 2;
+    }
+}
+
+@media screen  and (max-width:768px)  {
+    .gallery_cards {
+    column-count: 1;
+    }
+}
