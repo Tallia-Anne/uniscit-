@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import navCSS from './../Nav/Nav.module.css';
+import { Link } from "react-router-dom";
 
 function Nav() {
  
@@ -19,8 +20,8 @@ function Nav() {
 
   <ul ref={menu}>
     <li><a href="#home">Home</a></li>
-     <li><a href="#about">About</a></li>
-       <li><a href="/atelier">Projects</a></li>
+     <li><Link href="#about">About</Link></li>
+       <li><a href="/atelier" >Projects</a></li>
        <li><a href="#features">Features</a></li>
        <li><a href="#gallery">Gallery</a></li>
        <li><a href="#testimonials">Testimonials</a></li>
@@ -30,9 +31,9 @@ function Nav() {
     <div className={navCSS.Nav_btns}>
 
     <div className={navCSS.social}>
-    <i className="ri-facebook-circle-fill"></i>
-    <i className="ri-instagram-fill"></i>
-    <i className="ri-twitter-x-line"></i>
+    <a><i className="ri-facebook-circle-fill"></i></a>
+    <a href="https://www.instagram.com/uniscite95/"><i className="ri-instagram-fill"></i></a>
+    <a href=""><i className="ri-twitter-x-line"></i></a>
     </div>
 
     <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuHandler} ></i>
