@@ -15,11 +15,11 @@ function Nav() {
     <div className={navCSS.nav_wrapper}>
       <div className={navCSS.logo}>
         <i className="ri-arrow-up-down-line"></i>
-        <a href="#">Unis-cité</a>
+        <Link to="/">Unis-cité</Link>
       </div>
 
       <ul ref={menu}>
-        <li><a href="#home">Home</a></li>
+        <li><Link to="/">Home</Link></li>
         <li><a href="#about">About</a></li>
         <li><Link to="/atelier">Projects</Link></li>
         <li><a href="#features">Features</a></li>
