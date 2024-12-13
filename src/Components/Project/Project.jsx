@@ -3,7 +3,7 @@ import projectCSS from '../../Components/Project/Project.module.css'
 import projectImg1 from '../../assets/images/Minecraft-style.webp'
 import projectImg2 from '../../assets/images/_82cfd2ed-1e37-490b-9afc-2782db4754c3.jpeg';
 import projectImg3 from '../../assets/images/_86284232-81c0-4c6a-855b-4b6160287324.jpeg';
-import projectImg4 from '../../assets/images/diversite.webp*';
+import projectImg4 from '../../assets/images/diversite.webp';
 
 function Project () {
 
