@@ -91,6 +91,12 @@ object-position: top;
 object-fit: cover;
 }
 
+.project_wrapper .Project_all_button{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 @media  screen and (max-width: 900px) {
 
 .projectCards .projectCard:nth-of-type(2) , .projectCards .projectCard:nth-of-type(3) {
