@@ -1,0 +1,9 @@
+.wrapper_sectionAtelier {
+width: 100%;
+padding: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
