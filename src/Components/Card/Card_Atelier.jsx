@@ -1,8 +1,8 @@
 import cardAtelierCss from '../Card/Card_Atelier.module.css'
+import { Link } from 'react-router-dom';
 
 
-
-function Card_Atelier ({ title, description, technologies, year, image, lien })  {
+function Card_Atelier ({ id, title, description, technologies, year, image, lien })  {
   
     return (
       <div className={cardAtelierCss.cardAtelier_wrapper}
@@ -18,9 +18,9 @@ function Card_Atelier ({ title, description, technologies, year, image, lien }) 
 
         <h6>{title}</h6>
         <p>{description}</p>
-        
-        <a href={lien}><button>En savoir plus</button></a>
-
+        <Link to={`/atelier/${id}`}>
+        <button>En savoir plus</button>
+        </Link>
 
         </div>       
 

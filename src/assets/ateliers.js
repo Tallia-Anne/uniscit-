@@ -3,6 +3,7 @@ import scratchImage from '../assets/images/_82cfd2ed-1e37-490b-9afc-2782db4754c3
 import lambImage from '../assets/images/_86284232-81c0-4c6a-855b-4b6160287324.jpeg';
 import cyberImage from '../assets/images/diversite.webp';
 import plateauImage from '../assets/images/Plateau.jpg'
+import DiscordImage from '../assets/images/d73f9c4f0f6d91a72ac2d2ffacbf9cab.jpg'
 
 const ateliers = [
 {
@@ -40,10 +41,19 @@ const ateliers = [
     id: 5,
     title: "Atelier sur la cyberharcelement sur la discrimination",
     image: cyberImage,  // Utilisation de l'importation d'image
-    description: "Développement d'un jeu interactif sur la plateforme Scratch.",
+    description: "Cette prévention permet de définir le cyberharcelement notamment  en ce qui concerne la discrimination en identifiant les comportements discriminatoires en ligne.",
+    introduction: "Ce projet permet d'explorer la création musicale de manière ludique et interactive, en associant art et numérique. Les participants pourront stimuler leur créativité, s'amuser et développer des compétences, tout en découvrant le codage et la composition musicale.",
+    Objectifs :"",
     technologies: ["Scratch"],
     year: 2024
-  }
+  },  {
+    id: 6,
+    title: "Prévention numérique: Discord en tout sérénité ",
+    image: DiscordImage,  // Utilisation de l'importation d'image
+    description: "Cette prévention  permet d'apprendre à travers l'application Discord , en observant et en analysant les comportements en ligne. Elle aide à identifier les signes.",
+    technologies: ["Scratch"],
+    year: 2024
+  }, 
 ];
 
 export default ateliers;

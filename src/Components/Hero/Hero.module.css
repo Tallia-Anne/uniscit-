@@ -1,0 +1,11 @@
+.Hero {
+background-image: url('../../assets/images/447870305_3169605873176848_937472579814033578_n.jpg');
+height: auto;
+min-height: 70vh;
+width: 90%;
+margin: 0 auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+}

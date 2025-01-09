@@ -9,6 +9,7 @@ return (
       {ateliers.map((atelier) => (
         <Card_Atelier
           key={atelier.id}
+          id={atelier.id}
           title={atelier.title}
           description={atelier.description}
           technologies={atelier.technologies}

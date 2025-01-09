@@ -1,0 +1,35 @@
+.wrapperContent {
+height: auto;
+min-height: 50vh;
+width: 81%;
+margin: 0 auto;
+
+}
+
+
+.wrapperContent .contentLigne {
+width: 100;
+padding: 12px;
+border-bottom: none;
+border-left: none;
+border-right: none;
+}
+
+.wrapperContent .content {
+display: flex;
+flex-direction: row;
+gap: 12px;
+width: 100%;
+height: 100%;
+}
+
+.wrapperContent .content_right {
+width: 100%;
+}
+
+.wrapperContent .content_leght {
+width: 100%;
+height: 100%;
+display: flex;
+margin: 100px auto;
+}

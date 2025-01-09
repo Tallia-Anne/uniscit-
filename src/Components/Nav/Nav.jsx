@@ -20,7 +20,7 @@ function Nav() {
 
       <ul ref={menu}>
         <li><Link to="/">Home</Link></li>
-        <li><a href="#about">About</a></li>
+        <li><Link to="/about">About</Link></li>
         <li><Link to="/atelier">Ateliers</Link></li>
         <li><a href="#gallery">Gallerie</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
