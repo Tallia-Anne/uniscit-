@@ -3,7 +3,9 @@ import scratchImage from '../assets/images/_82cfd2ed-1e37-490b-9afc-2782db4754c3
 import lambImage from '../assets/images/_86284232-81c0-4c6a-855b-4b6160287324.jpeg';
 import cyberImage from '../assets/images/diversite.webp';
 import plateauImage from '../assets/images/Plateau.jpg'
-import DiscordImage from '../assets/images/d73f9c4f0f6d91a72ac2d2ffacbf9cab.jpg'
+import DiscordImage from '../assets/images/d73f9c4f0f6d91a72ac2d2ffacbf9cab.jpg';
+import DiscriImage from '../assets/images/_38c56c74-91b2-4cfc-94f7-19222ea3b6c4.jpeg';
+import Photopea from '../assets/images/téléchargement (2).png'
 
 const ateliers = [
 {
@@ -33,7 +35,7 @@ const ateliers = [
     id: 4,
     title: "Lamb: Jam Session Intro",
     image: lambImage,  // Utilisation de l'importation d'image
-    description: "Création de maquettes et de sites web adaptatifs pour ordinateurs, tablettes et mobiles.",
+    description: "Création du musique",
     technologies: ["HTML", "CSS", "JavaScript"],
     year: 2024
   },
@@ -53,7 +55,33 @@ const ateliers = [
     description: "Cette prévention  permet d'apprendre à travers l'application Discord , en observant et en analysant les comportements en ligne. Elle aide à identifier les signes.",
     technologies: ["Scratch"],
     year: 2024
-  }, 
+  }, {
+      id : 7,
+      title: "Création Affiche contre la discrimination ",
+      image: DiscriImage,  // Utilisation de l'importation d'image
+    description: "Cet atelier manuel sur la création d'affiches contre la discrimination inclut également un temps de discussion.",
+    technologies: ["Scratch"],
+    year: 2024
+
+},  {
+      id : 8,
+      title: "Création Affiche contre la discrimination ",
+      image: DiscriImage,  // Utilisation de l'importation d'image
+    description: "Cet atelier manuel sur la création d'affiches contre la discrimination inclut également un temps de discussion.",
+    technologies: ["Scratch"],
+    year: 2024
+
+},
+{
+      id : 9,
+      title: "Tutoriel d’utilisation de photopea et capcut ",
+      image: Photopea,  // Utilisation de l'importation d'image
+    description: "Apprendre les bases du montage photo ou vidéo, pour mieux comprendre le fonctionnement de ce genre de technologie",
+    technologies: ["Scratch"],
+    year: 2024
+
+}
+
 ];
 
 export default ateliers;
