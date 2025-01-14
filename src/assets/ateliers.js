@@ -96,7 +96,7 @@ const ateliers = [
       id : 11,
       title: "Super hero du net",
       image: SuperHero,  // Utilisation de l'importation d'image
-    description: "Un jeu pour développer son imagination, apprendre l’anglais et crée des éléments avec des mots.",
+    description: "Il s'agit d'une prévention.",
     technologies: ["Scratch"],
     year: 2024
 
