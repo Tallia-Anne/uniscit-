@@ -8,6 +8,7 @@ import DiscriImage from '../assets/images/_38c56c74-91b2-4cfc-94f7-19222ea3b6c4.
 import Photopea from '../assets/images/téléchargement (2).png'
 import infinite from '../assets/images/téléchargement (7).jpeg'
 import ordi from '../assets/images/_11acec20-7d4b-4238-9118-e08ddf77ac8b.jpeg'
+import SuperHero from '../assets/images/Visuel-ALL-SH-1.png'
 
 
 const ateliers = [
@@ -87,6 +88,14 @@ const ateliers = [
       id : 10,
       title: "Infinite craft",
       image: infinite,  // Utilisation de l'importation d'image
+    description: "Un jeu pour développer son imagination, apprendre l’anglais et crée des éléments avec des mots.",
+    technologies: ["Scratch"],
+    year: 2024
+
+}, {
+      id : 11,
+      title: "Super hero du net",
+      image: SuperHero,  // Utilisation de l'importation d'image
     description: "Un jeu pour développer son imagination, apprendre l’anglais et crée des éléments avec des mots.",
     technologies: ["Scratch"],
     year: 2024

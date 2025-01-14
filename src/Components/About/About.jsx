@@ -32,19 +32,13 @@ Enfin, nous proposons des formations sur l’utilisation constructive du numéri
 
      <div className={aboutcss.about_card}>
 
-    <h3>564 <span>Ateliers</span> </h3>
+    <h3>11 <span>Ateliers</span> </h3>
     <div className={aboutcss.line}></div>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, odit!</p>
 
     </div>
 
-     <div className={aboutcss.about_card}>
-
-    <h3>564 <span>Ateliers</span> </h3>
-    <div className={aboutcss.line}></div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, odit!</p>
-
-    </div>
+   
 
     </div>
 
