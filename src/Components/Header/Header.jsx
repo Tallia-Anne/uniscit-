@@ -30,8 +30,8 @@ return (
 
             <div  className={headerCSS.header_content} >
 
-                <small>slide1</small>
-                <h1>SLIDE1E</h1>
+                <small>À travers nos ateliers, nous sensibilisons et formons aux bonnes pratiques du numérique, pour un futur plus sûr, inclusif et responsable.</small>
+                <h1>Engager pour un monde numérique meilleur</h1>
                 <button>All Projects <i className='ri-arrow-right-line'></i> </button>
             </div>
 
@@ -47,8 +47,8 @@ return (
 
             <div  className={headerCSS.header_content} >
 
-                <small>slide2</small>
-                <h1>SLIDE1E</h1>
+                <small>Ensemble, nous luttons contre les inégalités numériques et promouvons un usage responsable de la technologie.</small>
+                <h1>Former, sensibiliser, inspirer</h1>
                 <button>All Projects <i className='ri-arrow-right-line'></i> </button>
             </div>
 
@@ -64,8 +64,8 @@ return (
 
             <div  className={headerCSS.header_content} >
 
-                <small>slide1</small>
-                <h1>SLIDE3E</h1>
+                <small>Avec Unis-Cité, nous créons des ateliers qui rapprochent, protègent et responsabilisent.</small>
+                <h1>Agir pour un numérique accessible à tous.</h1>
                 <button>All Projects <i className='ri-arrow-right-line'></i> </button>
             </div>
 
