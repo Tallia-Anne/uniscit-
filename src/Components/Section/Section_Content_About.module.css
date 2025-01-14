@@ -33,3 +33,23 @@ height: 100%;
 display: flex;
 margin: 100px auto;
 }
+
+@media screen and (max-width: 900px) {
+.wrapperContent {
+width: 100%;
+padding: 20px;
+}
+.wrapperContent .content {
+display: flex;
+flex-direction: column;
+}
+.wrapperContent .content_leght {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.wrapperContent .content_right {
+width: 100%;
+}
+}

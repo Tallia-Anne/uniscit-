@@ -35,3 +35,16 @@ justify-content: center;
 align-items: center;
 padding: 10px;
 }
+
+@media screen and (max-width: 900px) {
+.wrapper_sectionIntro_About {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.wrapper_sectionIntro_About .wrapper_sectionIntro_leght {
+width: 100%;
+}
+
+}
