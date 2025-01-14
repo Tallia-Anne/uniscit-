@@ -6,6 +6,9 @@ import plateauImage from '../assets/images/Plateau.jpg'
 import DiscordImage from '../assets/images/d73f9c4f0f6d91a72ac2d2ffacbf9cab.jpg';
 import DiscriImage from '../assets/images/_38c56c74-91b2-4cfc-94f7-19222ea3b6c4.jpeg';
 import Photopea from '../assets/images/téléchargement (2).png'
+import infinite from '../assets/images/téléchargement (7).jpeg'
+import ordi from '../assets/images/_11acec20-7d4b-4238-9118-e08ddf77ac8b.jpeg'
+
 
 const ateliers = [
 {
@@ -57,9 +60,9 @@ const ateliers = [
     year: 2024
   }, {
       id : 7,
-      title: "Création Affiche contre la discrimination ",
-      image: DiscriImage,  // Utilisation de l'importation d'image
-    description: "Cet atelier manuel sur la création d'affiches contre la discrimination inclut également un temps de discussion.",
+      title: "D’où vient l’ordinateur et comment fonctionne ",
+      image: ordi,  // Utilisation de l'importation d'image
+    description: "Expliquer et créer des exercices jouable sur les début du numérique, utiliser l’ordinateur.",
     technologies: ["Scratch"],
     year: 2024
 
@@ -77,6 +80,14 @@ const ateliers = [
       title: "Tutoriel d’utilisation de photopea et capcut ",
       image: Photopea,  // Utilisation de l'importation d'image
     description: "Apprendre les bases du montage photo ou vidéo, pour mieux comprendre le fonctionnement de ce genre de technologie",
+    technologies: ["Scratch"],
+    year: 2024
+
+}, {
+      id : 10,
+      title: "Infinite craft",
+      image: infinite,  // Utilisation de l'importation d'image
+    description: "Un jeu pour développer son imagination, apprendre l’anglais et crée des éléments avec des mots.",
     technologies: ["Scratch"],
     year: 2024
 
