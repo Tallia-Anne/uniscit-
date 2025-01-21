@@ -19,11 +19,11 @@ function Nav() {
       </div>
 
       <ul ref={menu}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/">Accueil</Link></li>
+        <li><Link to="/about">A propos</Link></li>
         <li><Link to="/atelier">Ateliers</Link></li>
-        <li><a href="#gallery">Gallerie</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
       </ul>
 
       <div className={navCSS.Nav_btns}>

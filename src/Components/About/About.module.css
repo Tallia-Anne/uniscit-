@@ -9,7 +9,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column; /* Par défaut pour les petits écrans */
-    background-color: rgb(239, 239, 239);
+    background-color: #ffb74d;
     margin-top: -160px;
     z-index: 9;
     position: relative;

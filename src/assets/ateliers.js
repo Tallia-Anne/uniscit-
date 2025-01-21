@@ -9,6 +9,7 @@ import Photopea from '../assets/images/téléchargement (2).png'
 import infinite from '../assets/images/téléchargement (7).jpeg'
 import ordi from '../assets/images/_11acec20-7d4b-4238-9118-e08ddf77ac8b.jpeg'
 import SuperHero from '../assets/images/Visuel-ALL-SH-1.png'
+import Dactylographie from '../assets/images/images.jpeg'
 
 const ateliers = [
   {
@@ -164,7 +165,24 @@ const ateliers = [
     ],
     Categories: ["Scratch"],
     year: 2024
-  }
+  },
+
+ {
+  id: 12,
+  title: "Dactylographie",
+  image: Dactylographie,  
+  introduction: "Atelier ludique et éducatif visant à initier les participants à la maîtrise du clavier tout en améliorant leur vitesse et leur précision de frappe.",
+  description: "Cet atelier propose une approche interactive pour apprendre les bases de la dactylographie. Grâce à des exercices pratiques et des jeux développés sur Scratch, les participants découvriront les bonnes positions des doigts sur le clavier, amélioreront leur vitesse de frappe et développeront des compétences utiles pour leurs études ou leur carrière professionnelle.",
+  objectifs: [
+    "Apprendre les bases de la dactylographie et les bonnes pratiques.",
+    "Améliorer la vitesse et la précision de frappe au clavier.",
+    "Favoriser l'autonomie numérique des participants.",
+    "Utiliser Scratch pour rendre l'apprentissage plus interactif et amusant."
+  ],
+  Categories: ["Scratch"],
+  year: 2024
+}
+
 ];
 
 

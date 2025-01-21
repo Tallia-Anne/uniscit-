@@ -48,7 +48,17 @@ function SinglePost() {
       </div>
 
       {/* Passer les 3 ateliers à Section_Atelier */}
+      <div  className={singlepostCSS.sectionPost}>
+        <div className={singlepostCSS.viewAtelier} >
+
+        <h4>Dernière Ateliers</h4>
+
+        <button>Tous les ateliers</button>
+
+
+      </div>
       <Section_Atelier ateliers={threeAteliers} />
+      </div>
     </div>
   );
 }

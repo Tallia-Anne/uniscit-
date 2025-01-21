@@ -77,3 +77,37 @@ width: 71%;
 flex-direction: column;
 gap: 12px;
 }
+
+.wrapperSingle .sectionPost {
+margin-top: 120px;
+}
+
+.wrapperSingle .sectionPost .viewAtelier {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 630px;
+}
+
+.wrapperSingle .sectionPost .viewAtelier h4 {
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+
+.wrapperSingle .sectionPost .viewAtelier {
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin-left: 65px;
+}
+
+
+
+ }
