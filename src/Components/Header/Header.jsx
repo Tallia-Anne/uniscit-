@@ -32,7 +32,7 @@ return (
 
                 <small>À travers nos ateliers, nous sensibilisons et formons aux bonnes pratiques du numérique, pour un futur plus sûr, inclusif et responsable.</small>
                 <h1>Engager pour un monde numérique meilleur</h1>
-                <button>All Projects <i className='ri-arrow-right-line'></i> </button>
+                <button>Tous les ateliers <i className='ri-arrow-right-line'></i> </button>
             </div>
 
         </div>
@@ -49,7 +49,7 @@ return (
 
                 <small>Ensemble, nous luttons contre les inégalités numériques et promouvons un usage responsable de la technologie.</small>
                 <h1>Former, sensibiliser, inspirer</h1>
-                <button>All Projects <i className='ri-arrow-right-line'></i> </button>
+                <button>Tous les ateliers <i className='ri-arrow-right-line'></i> </button>
             </div>
 
         </div>
@@ -66,7 +66,7 @@ return (
 
                 <small>Avec Unis-Cité, nous créons des ateliers qui rapprochent, protègent et responsabilisent.</small>
                 <h1>Agir pour un numérique accessible à tous.</h1>
-                <button>All Projects <i className='ri-arrow-right-line'></i> </button>
+                <button>Tous les ateliers <i className='ri-arrow-right-line'></i> </button>
             </div>
 
         </div>
