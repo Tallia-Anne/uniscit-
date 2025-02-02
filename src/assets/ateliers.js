@@ -10,6 +10,10 @@ import infinite from '../assets/images/téléchargement (7).jpeg'
 import ordi from '../assets/images/_11acec20-7d4b-4238-9118-e08ddf77ac8b.jpeg'
 import SuperHero from '../assets/images/Visuel-ALL-SH-1.png'
 import Dactylographie from '../assets/images/images.jpeg'
+import Cybercitoyens from '../assets/images/la fresque des cybercitoyens.png'
+import FakeNews from '../assets/images/Fakesnews.jpg'
+import JeuxCyber from '../assets/images/jeuximage-cyber.jpg'
+import AI from '../assets/images/AI.webp'
 
 const ateliers = [
   {
@@ -180,6 +184,66 @@ const ateliers = [
     "Utiliser Scratch pour rendre l'apprentissage plus interactif et amusant."
   ],
   Categories: ["Scratch"],
+  year: 2024
+}, {
+  id: 13,
+  title: "Image produite par L'IA",
+  image: AI,  
+  introduction: "Avec les avancées de l’intelligence artificielle, il devient de plus en plus difficile de distinguer une image réelle d’une image générée artificiellement. Les deepfakes, les images retouchées et les créations d’IA peuvent être utilisées pour manipuler l’opinion publique, diffuser des Fake News ou même créer des arnaques en ligne. Cet atelier a pour but d’aider les participants à développer un regard critique sur les images qu’ils voient en ligne. Grâce à un jeu interactif, ils apprendront à identifier les signes qui permettent de différencier une image authentique d’une image créée par l’IA ",
+  description: "Observation d’images – Les participants doivent deviner si une image est vraie ou générée par IA. Analyse et indices – Explication des détails permettant de repérer les images artificielles. Révélation et discussion – Retour sur chaque image et explication des manipulations possibles. Quiz interactif – Test des connaissances des participants sur la reconnaissance des images IA. L’atelier permet ainsi de mieux comprendre le phénomène des deepfakes et des fake news visuelles, afin de ne pas tomber dans le piège des images trompeuses.",
+  objectifs: [
+    "Sensibiliser les participants aux images générées par l’IA et à leur impact.",
+"Apprendre à repérer les indices d’une image artificielle.",
+"Développer un esprit critique face aux contenus visuels circulant sur internet.",
+"Favoriser l’échange et la réflexion sur la désinformation par l’image."
+  ],
+  Categories: ["Pédagogie"],
+  year: 2024
+}, {
+       id: 14,
+  title: "la fresque des cybercitoyens",
+  image:  Cybercitoyens,  
+  introduction: "Cet atelier ",
+  description: "Le projet Advens for People and Planet, réalisé grâce à l’expertise en cybersécurité d’Advens et le partenariat avec l’académie de Paris, a pour but de sensibiliser les adolescents de 11 à 14 ans à la sécurité numérique. La Fresque est fondée sur une démarche de prévention et d’éducation. ",
+  objectifs: [
+    "Jeu d’équipes, fonctionnant sur l’intelligence collective des élèves",
+"Ludique",
+"Basé sur des sources publiques et fiables",
+"Modulable",
+"Adaptable de la 6e à la 3e",
+"Peut être animé par un néophyte en cybersécurité."
+  ], 
+Categories: ["Scratch"],
+  year: 2024
+}, {
+       id: 15,
+  title: "Fake News",
+  image: FakeNews,  
+  introduction: "Dans un monde où l’information circule en continu sur internet et les réseaux sociaux, il devient de plus en plus difficile de distinguer le vrai du faux. Les Fake News, ou fausses informations, sont créées dans le but de manipuler l’opinion publique, influencer des décisions ou simplement générer du buzz.",
+  description: "Cette présentation traite des Fake News, en expliquant leur définition, leurs objectifs, et les moyens de les identifier. Elle inclut également un quiz interactif pour tester les connaissances des participants sur la vérification des informations. ",
+  objectifs: [
+    "Définir ce qu’est une Fake News.",
+"Expliquer pourquoi elles sont créées.",
+"Fournir des outils et des techniques pour différencier une fausse information d’une vraie.",
+"Encourager la vérification des sources avant de partager une information.",
+"Tester les connaissances du public à travers un quiz interactif."
+  ], 
+Categories: ["Scratch"],
+  year: 2024
+}, {
+       id: 15,
+  title: "Jeux pour reconnaitre le harcelement",
+  image: JeuxCyber,  
+  introduction: "Le harcèlement, qu'il soit scolaire, en ligne ou dans la vie quotidienne, est un problème majeur qui peut avoir des conséquences graves sur les victimes. Il est parfois difficile de l’identifier, surtout lorsqu’il prend des formes subtiles. Cet atelier propose un jeu interactif où les participants devront relier des images à des mots-clés représentant différentes formes de harcèlement. L’objectif est de sensibiliser les joueurs aux situations de harcèlement et de leur apprendre à mieux les repérer pour mieux réagir..",
+  description: "Cette présentation traite des Fake News, en expliquant leur définition, leurs objectifs, et les moyens de les identifier. Elle inclut également un quiz interactif pour tester les connaissances des participants sur la vérification des informations. ",
+  objectifs: [
+    "Sensibiliser les participants aux différentes formes de harcèlement.",
+"Aider à reconnaître les signes du harcèlement à travers des mises en situation.",
+"Développer un esprit critique face aux comportements toxiques.",
+"Encourager la discussion et la réflexion sur la manière de réagir face au harcèlement.",
+"Donner des outils aux participants pour prévenir et lutter contre le harcèlement."
+  ], 
+Categories: ["Scratch"],
   year: 2024
 }
 

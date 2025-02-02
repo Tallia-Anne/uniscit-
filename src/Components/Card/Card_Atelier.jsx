@@ -17,7 +17,7 @@ function Card_Atelier ({ id, title, description, technologies, year, image, lien
         <div className={cardAtelierCss.content} >
 
         <h6>{title}</h6>
-        <p>{description}</p>
+      <p> {description.length > 100 ? description.slice(0, 100) + '...' : description}</p>
         <Link to={`/atelier/${id}`}>
         <button>En savoir plus</button>
         </Link>
