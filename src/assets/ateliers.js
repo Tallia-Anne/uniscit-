@@ -14,6 +14,8 @@ import Cybercitoyens from '../assets/images/la fresque des cybercitoyens.png'
 import FakeNews from '../assets/images/Fakesnews.jpg'
 import JeuxCyber from '../assets/images/jeuximage-cyber.jpg'
 import AI from '../assets/images/AI.webp'
+import Imageenvironnemental from '../assets/images/Environnement.png'
+import ImageWordGame from './images/Activité Word Games.jpg'
 
 const ateliers = [
   {
@@ -231,7 +233,7 @@ Categories: ["Scratch"],
 Categories: ["Scratch"],
   year: 2024
 }, {
-       id: 15,
+       id: 16,
   title: "Jeux pour reconnaitre le harcelement",
   image: JeuxCyber,  
   introduction: "Le harcèlement, qu'il soit scolaire, en ligne ou dans la vie quotidienne, est un problème majeur qui peut avoir des conséquences graves sur les victimes. Il est parfois difficile de l’identifier, surtout lorsqu’il prend des formes subtiles. Cet atelier propose un jeu interactif où les participants devront relier des images à des mots-clés représentant différentes formes de harcèlement. L’objectif est de sensibiliser les joueurs aux situations de harcèlement et de leur apprendre à mieux les repérer pour mieux réagir..",
@@ -245,7 +247,37 @@ Categories: ["Scratch"],
   ], 
 Categories: ["Scratch"],
   year: 2024
-}
+}, {
+       id: 17,
+  title: "L’Impact environnemental du numérique ",
+  image: Imageenvironnemental,  
+ "introduction": "Le numérique occupe une place essentielle dans notre quotidien, mais son impact sur l’environnement est souvent méconnu. Cet atelier vise à sensibiliser les participants aux enjeux écologiques liés aux technologies numériques. À travers des explications accessibles et des exemples concrets, ils comprendront comment la production, l’utilisation et le recyclage des appareils numériques influencent notre planète.",
+  "description": "Cet atelier interactif explore les différentes facettes de l’impact environnemental du numérique, telles que la consommation d’énergie, l’extraction des ressources rares et la gestion des déchets électroniques. Les participants découvriront également des solutions pour adopter une utilisation plus responsable des technologies.",
+  "objectifs": [
+    "Sensibiliser aux impacts écologiques du numérique.",
+    "Expliquer les conséquences de la production et du recyclage des appareils électroniques.",
+    "Encourager des pratiques numériques plus écoresponsables.",
+    "Fournir des conseils concrets pour réduire son empreinte numérique.",
+    "Stimuler la réflexion sur l’équilibre entre innovation et préservation de l’environnement."
+  ], 
+"categories": ["Prévention", "Écologie"],
+  year: 2025
+},  {
+       id: 18,
+  title: "Word Game ",
+  image: ImageWordGame,  
+ introduction: "L’apprentissage du code devient une expérience interactive et captivante grâce à une approche ludique basée sur les couleurs et les formes. En s’immergeant dans une histoire simple et visuelle, les enfants découvrent les bases du codage tout en développant leur créativité et leur logique. Cette méthode leur permet d’associer des concepts informatiques à des éléments concrets, facilitant ainsi la compréhension et l’assimilation des principes fondamentaux de la programmation.",
+  description: "Cette activité propose aux enfants d’apprendre le codage de manière intuitive en utilisant des couleurs et des formes. À travers une histoire interactive, ils décoderont les éléments et comprendront comment un ordinateur interprète les instructions. Le but est de rendre la programmation accessible et amusante tout en stimulant la réflexion logique.",
+  objectifs: [
+    "Introduire les bases du codage de manière ludique et accessible.",
+    "Aider les enfants à reconnaître et à associer des formes et des couleurs à des concepts de programmation.",
+    "Développer la logique et la créativité à travers une approche visuelle et interactive.",
+    "Encourager la résolution de problèmes en utilisant une méthodologie informatique simple.",
+    "Permettre une première approche du fonctionnement des algorithmes à travers une histoire immersive."
+  ],
+  "categories": ["Prévention"],
+  "year": 2025
+},
 
 ];
 
