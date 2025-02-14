@@ -264,7 +264,7 @@ Categories: ["Scratch"],
   year: 2025
 },  {
        id: 18,
-  title: "Word Game ",
+  title: "Word Games",
   image: ImageWordGame,  
  introduction: "L’apprentissage du code devient une expérience interactive et captivante grâce à une approche ludique basée sur les couleurs et les formes. En s’immergeant dans une histoire simple et visuelle, les enfants découvrent les bases du codage tout en développant leur créativité et leur logique. Cette méthode leur permet d’associer des concepts informatiques à des éléments concrets, facilitant ainsi la compréhension et l’assimilation des principes fondamentaux de la programmation.",
   description: "Cette activité propose aux enfants d’apprendre le codage de manière intuitive en utilisant des couleurs et des formes. À travers une histoire interactive, ils décoderont les éléments et comprendront comment un ordinateur interprète les instructions. Le but est de rendre la programmation accessible et amusante tout en stimulant la réflexion logique.",
